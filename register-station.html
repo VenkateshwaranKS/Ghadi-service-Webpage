@@ -1,0 +1,322 @@
+
+ <!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.gadiservicingwale.com/register-user.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Mar 2017 17:10:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name=apple-mobile-web-app-capable content=yes />
+<title>Register User - GadiServicingWale.com</title><link rel="shortcut icon" href="dummies/icon.ico">
+<link rel="shortcut icon" href="404.html">
+<title>Get All Motor vehicle Serviced with our GhadiService.ga</title>
+<meta name='keywords' content='bike servicing online booking, TamilNadu Bike Servicing, Salem Bike/car Servicing, pickup drop bike servicing'>
+<meta name='Description' content='Get your bike serviced from best service center within your surroundings. Get Upto 20% Off. Servicing charges starting from Rs.200 Only.'>
+ 
+<link rel="stylesheet" type="text/css" href="library/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="library/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="library/css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="library/css/animate.custom.css">
+<link rel="stylesheet" type="text/css" href="library/css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" class="ui" href="semantic/semantic.css">
+<link rel="stylesheet" type="text/css" href="library/css/style.css">
+<link rel="stylesheet" type="text/css" href="library/css/skins/default.css">
+<link rel="stylesheet" type="text/css" href="library/css/application.css">
+<link rel="stylesheet" type="text/css" href="library/css/custom.css">  
+ 
+<script src="library/js/modernizr.custom.min.js" type="text/javascript"></script>
+</head>
+<body class="enable-fixed-header enable-inview-animations" onload="javascript:initMap('Area To Select',20.5204, 20.8567,'my_canvas');">
+ 
+<div class="se-pre-con"></div>
+<input type="hidden" id="scrollTopValue" value="250"/>
+<header id="header">
+<div class="container">
+<div class="header-inner clearfix">
+<form id="dummy-form" action="#" style="margin: 0px">
+</form>
+<div class="header-branding">
+<a href="booking.html"><img src="dummies/logo.png" alt="GhadiService.ga"></a>
+</div>
+<div class="header-tools">
+ 
+<div class="header-language">
+<button class="header-btn">
+<i class="marker icon"></i>TamilNadu
+</button>
+<input type="hidden" name="userCity" id="userCity" value="TamilNadu">
+<nav class="header-nav">
+<ul class="custom-list">
+<li class="active"><a href="#" onselect="javascript:markCity('TamilNadu');">
+	<i class="marker icon"></i> Salem</a></li>
+	<i class="marker icon"></i> Chennai</a></li>
+	<i class="marker icon"></i> Coimbatore</a></li>
+	<i class="marker icon"></i> Madurai</a></li>
+	
+</ul>
+</nav>
+</div>
+
+ 
+<div class="header-login">
+<button class="login-toggle header-btn" id="login-btn"><i class="fa fa-power-off"></i> Login</button>
+<div class="header-form">
+
+<form action="logindb.php" method="POST">
+<?php include 'logindb.php';?>
+<fieldset>
+<p class="form-row">
+<input name="mobilenumber" class="email" type="number" placeholder="Mobile No." pattern='[0-9]*'>
+</p>
+<p class="form-row">
+<input class="required" type="password" placeholder="Password" name="password">
+</p>
+<p><input type="submit" value="login" name="submit" class="submit-btn button"></p>
+<p align="center"><input type="reset" value="Reset" class="submit-btn button" ></p>
+<p class="form-row forgot-password">
+<a href='reset-password.html'>Reset Password?</a>
+</p>
+<p class="form-row forgot-password">
+<a href="register-user.html">Register Customer</a><br>
+<a href="register-user.html">Register Servicer</a>
+</p>
+</fieldset>
+</form>
+</div>
+</div>
+ <span class='header-add-offer'><a href='register-station.html' class='button'><i class='fa fa-plus'></i> Register for Service </a></span>
+ <span class='header-add-offer'><a href='contact-us.html' class='button'><i class='fa fa-plus'></i> Contact Us</a></span>  </div>
+</div>
+<button class="navbar-toggle button">
+<i class="fa fa-bars"></i>
+</button>
+</div>
+</header>
+<div class="ui modal" id="message-popup-new-alert">
+<div class="header"><h4 id="message-popup-new-alert-title"> </h4> </div>
+<div class="content" style="padding:0px;height: 200px;overflow: auto;">
+<table style="overflow: hidden; margin:0px;">
+<tr height="100%">
+<td width="30%" id="IMAGESHOW" style="text-align: left;">
+<img alt="alert" src="dummies/alert.png" height="100px" id="ALERT" style="display: none;margin-top: 35px">
+<img alt="alert" src="dummies/success.png" height="100px" id="SUCCESS" style="display: none;margin-top: 35px">
+</td>
+<td width="100%" style="text-align: left;vertical-align: middle;">
+<h4 id="message-popup-new-alert-message">
+Some Issue Encountered!!
+</h4>
+</td>
+</tr>
+</table>
+</div>
+<div class="actions" id="message-popup-new-alert-close">
+<div class="ui cancel button">Close</div>
+</div>
+</div>
+<script>
+	function markCity(city){
+		$("#userCity").val(city);
+	}
+</script>
+<div id="core">
+ 
+<section class="content-section">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-push-4">
+<div class="contact-form-container" id="registration-form">
+<h4>Register Your Service Center With US</h4>
+<div class="default-form">
+<div id="registration-error">
+</div>
+<div style="width: 100%; height: 12px; border-bottom: 1px solid black; text-align: center">
+<span style="font-size: 15px; background-color: white; padding: 0 10px;">
+Service Center Details
+</span>
+</div>
+<form action="servicedb.php" method="POST">
+
+<div class="row">
+<div class="col-sm-6 col-sm-6-override">
+<p><input type="text" id="field_name" name="ownerName" class="required" placeholder="Owner Name"></p>
+</div>
+<div class="col-sm-6 col-sm-6-override">
+<p><input type="text" id="field_name" name="vendorName" class="required" placeholder="Service Center Name"></p>
+</div>
+<div class="col-sm-6 col-sm-6-override">
+<p><input type="number" id="field_name" name="mobile" class="required" placeholder="Mobile" pattern='[0-9]*'></p>
+</div>
+
+<div class="col-sm-6 col-sm-6-override">
+<p><input type="text" id="field_name" name="registrationNumber" class="required" placeholder="Service Center Registration Number" value=""></p>
+</div>
+<div class="col-sm-6 col-sm-6-override">
+<p>
+<span class="select">
+<select id="field_subject" name="servicingCapacity" class="required" data-placeholder="Servicing Capacity">
+<option>Servicing Capacity</option>
+<option value="10">Ten - 10</option>
+<option value="15">Fiften - 15</option>
+<option value="20">Twenty - 20</option>
+<option value="25">Twenty Five - 25</option>
+<option value="30">Thirty - 30</option>
+</select>
+</span>
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6 col-sm-6-override">
+<p class="form-note">All fields are required</p>
+</div>
+<div class="col-sm-6 col-sm-6-override">
+<p class="form-submit"><p><input type="submit" name="submit" class="button submit" Value="Place your sation"/></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-md-pull-8">
+<h4>Why Us ?</h4>
+<ul class="check-list">
+<li>No Installation cost, No Monthly subscription. No Monthly / Annual charges.</li>
+<li>Build your online reputation and reach thousands of customer every day.</li>
+<li>Cover large area for your business than the few miles local to your business store</li>
+<li>Lets customer book appointment with your business online instantly. We enables you to accept 24*7 appointments from globe and not just from your neighbourhood.</li>
+<li>Build potiential customer's trust on your business. Receive feedback/reviews from customer so that new customer get confidence in your services.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+ 
+</div>
+ 
+<section class="content-section" id="about-us">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h3 align="center">ABOUT US</h3>
+<p>In today's digital world, Where you could get almost everything on
+fingertips we took one more step ahead to change your traditional way of gadi servicing!</p>
+We are glad to introduce 'GadiServicingWale' an online motorcycle repair and maintenance service that target your Gadi maintenance troubles.
+We believe that your time and your bike both are beyond price and which can be managed right using technology.
+<p>@GadiServicingWale's you get Pickup & Drop facility,
+freedom to choose best service center, Real time booking & service tracking, Pay on Delivery.</p>
+<p>Everyone needs pampering so does your Gadi. So don't wait Pamper your Gadi toaday with GadiServicingWale.com .</p>
+<p class="cta-button">
+<a href="#" onclick="javascript:openLoginPopup();" class="button"><i class="fa fa-motorcycle"></i> Book Servicing Now!</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+ 
+<div id="testimonials">
+<div class="container">
+<div class="testimonials-inner">
+ 
+<div class="testimonial-list">
+ 
+<div class="testimonial"> <p class="portrait"> <img src="dummies/rm.jpg" alt="Rahul"> </p> <blockquote class="quote"> <p> Hassle free service :)</p> <footer> <cite>Rahul - <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></cite> </footer> </blockquote></div><div class="testimonial"> <p class="portrait"> <img src="dummies/rm.jpg" alt="Piyush"> </p> <blockquote class="quote"> <p> Free Pickup & Drop with world class servicing... Loving it</p> <footer> <cite>Piyush - <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></cite> </footer> </blockquote></div><div class="testimonial"> <p class="portrait"> <img src="dummies/rm.jpg" alt="Subrata"> </p> <blockquote class="quote"> <p> The muddy roads of Pune will see my clean bike every week or so...
+Thanks to Gadiservicingwale for the wonderful innovative idea...
+Free pick & drop of my bike is just pulling hell out of my Weekly task ;)
+No more planning for a servicing ... walking back </p> <footer> <cite>Subrata - <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></cite> </footer> </blockquote></div><div class="testimonial"> <p class="portrait"> <img src="dummies/rf.jpg" alt="Swati"> </p> <blockquote class="quote"> <p> Superb service..no more waiting for weekends to go for servicing. </p> <footer> <cite>Swati - <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></cite> </footer> </blockquote></div><div class="testimonial"> <p class="portrait"> <img src="dummies/rm.jpg" alt="parth"> </p> <blockquote class="quote"> <p> Fantastic..must go for it..</p> <footer> <cite>parth - <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i></cite> </footer> </blockquote></div> </div>
+ 
+ 
+<div class="navigation">
+<button class="button prev">
+<i class="fa fa-chevron-left"></i>
+</button>
+<button class="button next">
+<i class="fa fa-chevron-right"></i>
+</button>
+</div>
+ 
+</div>
+</div>
+</div>  
+ 
+<aside id="bottom-panel">
+<div class="container">
+<div class="row">
+<div class="widget links-widget">
+<h3 class="widget-title">
+<span>Quick Links</span>
+</h3>
+<br>
+<div class="row">
+<a href="booking-2.html">Home</a>&nbsp;|
+<a href="#about-us">About Us</a>&nbsp;|
+<a href="#" onclick="javascript:openLoginPopup();">Track My Servicing</a>&nbsp;|&nbsp;<a href="register-user.html">Register</a>&nbsp;|&nbsp;<a href="#" onclick="javascript:openLoginPopup();">Login</a>&nbsp;|&nbsp;<a href="register-station.html">Register Service Station</a>&nbsp; |&nbsp;<a href="contact-us.html">Contact Us</a> 
+</div>
+</div>
+</div>
+</div>
+</aside>  
+ 
+<footer id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-8">
+ 
+<p>
+Copyright 2016 &copy; GadiServicingWale. All rights reserved.
+</p>
+ 
+</div>
+ 
+ 
+ 
+ 
+ 
+<a href="https://msg91.com/startups/?utm_source=startup-banner" target="_blank"><img src="dummies/msg91Badge.png" width="90" height="75" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91"></a>
+</div>
+</div>
+</footer>  
+ 
+<script src="library/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+ 
+<script src="library/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<script src="library/js/jquery.ba-outside-events.min.js" type="text/javascript"></script>
+<script src="library/js/jquery.inview.min.js" type="text/javascript"></script>
+<script src="library/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="library/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="library/twitter/jquery.tweet.min.js" type="text/javascript"></script>
+<script src="library/js/scripts.js" type="text/javascript"></script>
+<script src="semantic/semantic.js"></script>
+<script src="library/js/application.js" type="text/javascript"></script>
+<script>
+			$(window).load(function() {
+				$(".se-pre-con").fadeOut("slow");
+			});
+		</script>
+<script>
+			allowSubmit = false;
+			function registerRequest(){
+				var ownerName = $("input[name='ownerName']").val();
+				var vendorName = $("input[name='vendorName']").val();
+				var mobile = $("input[name='mobile']").val();
+				var otp = $("input[name='otp']").val();
+				var registrationNumber = $("input[name='registrationNumber']").val();
+				var servicingCapacity = $("select[name='servicingCapacity']").val();
+				ajax("AjaxServices.html",{"ACTION_TYPE":"register.new.station.request","ownerName":ownerName,"vendorName":vendorName,"mobile":mobile,"otp":otp,"registrationNumber":registrationNumber,"servicingCapacity":servicingCapacity},"json",function(successData){
+					generatePopup("SUCCESS","Your Request Is Registered, We will Call You For Verification!!");
+					$(".ui.cancel.button").click(function(){
+						allowSubmit = true;
+						$("#dummy-form").attr("action", "booking-2.html");
+						$("#dummy-form" ).submit();	
+					});
+				},function(errorData){
+					if(errorData.isError){
+						generatePopup("ALERT",errorData.errorMessage);
+					}
+				},true);
+			}
+		</script>
+</body>
+
+<!-- Mirrored from www.gadiservicingwale.com/register-station.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Mar 2017 17:10:46 GMT -->
+</html>
